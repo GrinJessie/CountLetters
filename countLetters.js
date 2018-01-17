@@ -8,9 +8,9 @@
 //return
 
 
-var countLetters = function(str){
-  var strs = str.toLowerCase().split('');
-  var letters = {};
+const countLetters = function(str){
+  const strs = str.toLowerCase().split(' ');
+  const letters = {};
   for (let char of strs){
     if (!letters[char]) {
       letters[char] = 1;
